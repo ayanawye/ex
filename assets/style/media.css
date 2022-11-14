@@ -1,20 +1,33 @@
 @media (max-width: 768px){
+    /* MOUNTAINE */
     .container{
-        max-width: 740px;
+        max-width: 720px;
     }
     .header{
-        padding: 0 70px;
+        padding: 0 50px;
     }
     .mountain{
         padding: 0 70px;
     }
     .grid__card{
-        grid-template-columns: 1fr, 1fr;
-        column-gap: 30px;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 20px;
     }
     .mountain__img{
         width: 100%;
-        height: 400px;
+    }
+    .left__title{
+        font-size: 23px;
+        line-height: 37px;
+        margin: 14px 0 20px;
+    }
+    .left__desc{
+        font-size: 15px;
+    }
+    /* MOUNTAINE */
+    /* LOCATION */
+    .location{
+        padding-top: 60px;
     }
     .cards{
         grid-template-columns: repeat(2, 1fr);
@@ -26,7 +39,29 @@
         font-size: 17px;
         line-height: 20px;
     }
+    /* LOCATION */
+    /*  PLACE*/
+    .grid__col-3{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .lines{
+        margin: 50px 0;
+    }
+    .click{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    /*  PLACE*/
+    /* footer */
+    .footer__end{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .footer__email{
+        order: 7;
+        margin-bottom: 35px;
+    }
+    /* footer */
 }
 @media (max-width: 390px){
-    
+
 }
