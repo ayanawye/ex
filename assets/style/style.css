@@ -1,0 +1,130 @@
+@import "./fonts.css";
+
+:root{
+    --black-color: #000000;
+    --desc-color: #999999;
+    --lit-font: 
+}
+
+/* BASE CONFIG */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Tenor Sans', Arial, Helvetica, sans-serif;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+button {
+	background: none;
+	border: none;
+}
+/* BASE CONFIG */
+/* UNIQUE */
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+/* UNIQUE */
+/* HEADER */
+.header{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px;
+}
+.header__link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--black-color);
+    margin-left: 40px;
+}
+/* HEADER */
+/* MOUNTAIN SECTION */
+.mountain{
+    height: 474px;
+    padding-top: 59px;
+}
+.grid__card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+.left__top{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.left__title{
+    margin: 18px 0 27px ;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: var(--black-color);
+}
+.left__desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+.left__bottom{
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 28px;
+}
+/* MOUNTAIN SECTION */
+/* SECTION CARDS */
+.location{
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+.location img{
+    width: 100%;
+}
+.card__top{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--desc-color);
+    margin-top: 24px;
+}
+.card__title{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: var(--desc-color);
+    margin: 18px 0 15px;
+}
+.card__end{
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--black-color);
+}
+/* SECTION CARDS */

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('SourceSerifPro-Regular.eot');
+    src: url('SourceSerifPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SourceSerifPro-Regular.woff2') format('woff2'),
+        url('SourceSerifPro-Regular.woff') format('woff'),
+        url('SourceSerifPro-Regular.ttf') format('truetype'),
+        url('SourceSerifPro-Regular.svg#SourceSerifPro-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Bold.eot');
+    src: url('Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Lato-Bold.woff2') format('woff2'),
+        url('Lato-Bold.woff') format('woff'),
+        url('Lato-Bold.ttf') format('truetype'),
+        url('Lato-Bold.svg#Lato-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Regular.eot');
+    src: url('Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Lato-Regular.woff2') format('woff2'),
+        url('Lato-Regular.woff') format('woff'),
+        url('Lato-Regular.ttf') format('truetype'),
+        url('Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tenor Sans';
+    src: url('TenorSans.eot');
+    src: url('TenorSans.eot?#iefix') format('embedded-opentype'),
+        url('TenorSans.woff2') format('woff2'),
+        url('TenorSans.woff') format('woff'),
+        url('TenorSans.ttf') format('truetype'),
+        url('TenorSans.svg#TenorSans') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
