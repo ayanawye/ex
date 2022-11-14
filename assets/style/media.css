@@ -57,6 +57,7 @@
         grid-template-columns: repeat(4, 1fr);
     }
     .footer__email{
+        order: 7;
         margin-bottom: 35px;
     }
     /* footer */
