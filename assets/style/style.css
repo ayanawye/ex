@@ -46,7 +46,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 120px;
+    padding: 0 100px;
 }
 .header__link{
     font-weight: 400;
