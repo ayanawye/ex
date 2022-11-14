@@ -3,7 +3,6 @@
 :root{
     --black-color: #000000;
     --desc-color: #999999;
-    --lit-font: 
 }
 
 /* BASE CONFIG */
@@ -30,6 +29,16 @@ button {
     margin: 0 auto;
     padding: 0 10px;
 }
+.grid__col-3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.lines{
+    background: #E6E6E6;
+    height: 1px;
+    width: 100%;
+    margin: 90px 0;
+}
 /* UNIQUE */
 /* HEADER */
 .header{
@@ -54,8 +63,12 @@ button {
 }
 .grid__card{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 50px;
+}
+.mountain__img{
+    background: url(../image/mountain.jpg) no-repeat center/cover;
+    height: 474px;
 }
 .left__top{
     font-weight: 400;
@@ -90,7 +103,6 @@ button {
 /* SECTION CARDS */
 .location{
     padding-top: 120px;
-    padding-bottom: 100px;
 }
 .cards{
     display: grid;
@@ -128,3 +140,175 @@ button {
     color: var(--black-color);
 }
 /* SECTION CARDS */
+/* SECTION PLACE */
+.place__cards{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 50px;
+}
+.place__card img{
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+.place__top{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: var(--desc-color);
+    margin: 25px 0 18px;
+}
+.place__title{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    color: var(--black-color);
+}
+.place_end{
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: var(--black-color);
+    margin-top: 15px;
+}
+.click{
+    display: block;
+    margin: 0 auto;
+    padding: 21px 26px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    height: 54px;
+    width: 205px;
+    text-align: center;
+    border: 1px solid #000000;
+    position: relative;
+}
+.click__text{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--black-color);
+}
+
+/* SECTION PLACE */
+/* SECTION GAMES */
+.games{
+    text-transform: uppercase;
+}
+.games__title{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: var(--desc-color);
+    margin-bottom: 30px;
+    font-family: 'Libre Franklin';
+}
+.games__grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 20px;
+}
+.games__card img{
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.games__top{
+    margin: 25px 0 18px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: var(--desc-color);
+}
+.games__title{
+    color: var(--black-color);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+}
+.games__autor{
+    color: var(--black-color);
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    margin: 15px 0 90px;
+}
+/* SECTION GAMES */
+/* FOOTER */
+.footer{
+    height: 617px;
+    background-color: #141414;
+    color: #fff;
+}
+.footer__up{
+    display: flex;
+    padding: 93px 0 0;
+    align-items: flex-end;
+}
+.footer__desc{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.line{
+    margin: 60px 0;
+    background: #4D4D4D;
+    height: 1px;
+    width: 100%;
+}
+.footer__end{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: flex-end;
+    row-gap: 70px;
+}
+.footer__chapter{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--desc-color);
+    margin-bottom: 20px;
+}
+.footer__link{
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer__nav input{
+    position: relative;
+    width: calc(80% - 48px);
+    height: 48px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.footer__button{
+    position: absolute;
+    height: 48px;
+    width: 79px;
+    background: var(--black-color);
+    display: inline-block;
+    color: #fff;
+}
+
+/* FOOTER */
